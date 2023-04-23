@@ -1,0 +1,26 @@
+.change-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2% 7%;
+}
+.form > input{
+    width:420px;
+    height: 50px;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    background-color: #FFf;
+    display: flex;
+align-items: center;
+}
+
+.form > button{
+
+    width: 80%;
+    height: 40px;
+    background-color: #FDC8F2;
+    font-size: 20px;
+}

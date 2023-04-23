@@ -1,0 +1,11 @@
+.table-responsive{
+    display: flex;
+    justify-content: space-around;
+  flex-direction: column;
+  padding-top: 40px;
+  font-size: 22px;
+}
+
+.table-bordered{
+    background-color: #FAEBD7;
+}

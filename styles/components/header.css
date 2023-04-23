@@ -1,0 +1,82 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 0% 7%;
+    box-sizing: border-box;
+    background-color:#fff
+}
+
+#header-logo{
+    font-size: 35px;
+    color: #E56A7E;
+    text-decoration: none;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+#search > input{
+    width:400px;
+    height:35px;
+    font-size: 14px;
+    outline: none;
+    display: block;
+    border: 1px solid#F4F4F4 ;
+    border-radius: 8px;
+    background-color: #F4F4F4;
+}
+#header #search button {
+    position: absolute;
+    bottom: 22px;
+    right: 20px;
+    height: 10px;
+    width: 20px;
+    border: none;
+    background-color: #F4F4F4;
+}
+#header #search button img{
+    width: 22px;
+
+}
+ 
+#header #header-buttons  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:#fff;
+}
+
+#header #header-buttons img{
+    width: 30px;
+    height: 30px;
+}
+#header #header-buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #838AA1;
+    text-transform: lowercase;
+}
+#header-menu{
+        background-color: #F4F7F8;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 7%;
+    }
+    #header-menu>a{
+        text-decoration: none;
+        color: #838AA1;
+        font-size: 18px;
+    }
+
+
+
+

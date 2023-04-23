@@ -1,0 +1,171 @@
+
+#best-sellers{
+    background-color: ivory;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#mainphoto{
+    position: relative;
+
+}
+#mainphoto img{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+
+}
+#mainphototext{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    position: absolute;
+    left: 8%;
+    bottom: 50%;
+    color: #522D6D;
+}
+#mainphototext>a{
+text-decoration: none;
+position: absolute;
+left: 10%;
+
+}
+#bestheader> h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: #111118;
+}
+#bestblogs{
+    display: flex;
+  align-items: flex-start;
+  align-items: stretch;
+
+    padding: 60px 7%;
+}
+.items-blocks {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+    gap: 30px;
+    margin-left: 50px;
+}
+.items-blocks>h3,
+.items-blocks>p{
+    padding: 10px;
+    text-align: center;
+    color: #111118;
+}
+
+.items-blocks> a{
+   width: 100%;
+   height: 40px;
+   border: 1px solid #FDC8F3;
+   text-decoration: none;
+   color: #111118;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+}
+.items-blocks>a:hover{
+   background-color: #ff9999;
+   color: #fff;
+
+}
+
+
+
+.items-blocks-img{
+    width:300px;
+    height: 325px;
+    box-sizing: border-box;
+
+}
+.sale-block{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2% 7%;
+margin-top: 2%;
+gap: 10px;
+background-color: #F4F7F8;
+
+}
+.sale-blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ .sale-blocks-img{
+    width:320px;
+    height: 340px;
+    box-sizing: border-box;
+ }
+ .sale-blocks h3,.sale-blocks p {
+    font-size: 18px;
+    text-align: center;
+ }
+
+.sale-button  a{
+      text-decoration: none;
+      color: #111118;
+
+}
+.sale-button a{
+    width: 150px;
+   height: 50px;
+
+   border: 1px solid #cc4ebf;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+}
+
+.sale-button a:hover{
+    background-color: #ff9999;
+    color: #fff;
+
+}
+#promo-blog{
+    padding: 3% 7%;
+    background-color: #F4F7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#promo-video video{
+    width: 420px;
+    height: auto;
+}
+#promo-text{
+    width: 400px;
+}
+#promo-text p{
+    font-size: 18px;
+}
+#promo-text h3{
+    font-size: 25px;
+    padding-bottom:20px;
+}
+#sale .sale-photo img{
+    width: 800px;
+    height: 400px;
+}
+#sale h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.logos img{
+width: 40px;
+height: 35px;
+}

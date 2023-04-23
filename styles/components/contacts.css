@@ -1,0 +1,41 @@
+body{
+    background-color: #f4f4f4;
+
+}
+#contact-section{
+    padding: 4% 7%;
+    display: flex;
+justify-content: center;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDC8F2;
+}
+.contact-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 1%;
+    align-items: center;
+}
+.contact-blog p{
+    color: #4e3067;
+    font-size: 20px;
+    text-align: center;
+}
+.contact-blog img{
+    width: 87px;
+    height: 90px;
+}
+
+.dropdown-header{
+padding-top: 50%;
+}
+.header-con{
+    text-align: center;
+    font-size: 25px;
+    padding: 2%;
+}

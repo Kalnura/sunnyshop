@@ -1,0 +1,33 @@
+.form{
+    padding:20px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    background-color: #F6F2EB;
+    height: 80vh;
+    border: 1px solid #F4F4F4;
+    align-items: center;
+}
+
+
+.form> p{
+    width:420px;
+    height: 50px;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    background-color: #FFf;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.form > h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.form >.bold {
+    font-weight: 500px;
+    background-color: #C6C0D6;
+
+}

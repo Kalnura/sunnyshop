@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Rubik:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+#itemsss{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 190px;
+    gap: 10px;
+    padding: 7%;
+
+
+}
+#concept h3{
+font-size: 25px;
+text-align: center;
+margin-top: 60px;
+}
+.item{
+    background-size: 100%;
+    cursor: pointer;
+    display: block; 
+    position: relative; 
+    z-index: 10;
+}
+
+
+
+
+.item:after { content:'';
+	position: absolute;
+	top: 0;
+    left:0;
+	width: 0;
+	height: 0;
+	background: rgba(70, 58, 58, 0.2);
+	border-radius: 5px;
+	transition: all .5s ease;
+    z-index: 0;
+
+
+ }
+ .item:before {
+     content:'';
+	position: absolute;
+	bottom: 0;
+    right:0;
+	width: 0;
+	height: 0;
+	background: rgba(70, 58, 58, 0.2);
+	border-radius: 5px;
+	transition: all .5s ease;
+    z-index: 0;
+
+}
+
+.item:hover:after{
+    width: 100%;
+    height: 100%;
+
+}
+.item:hover:before{
+    width: 100%;
+    height: 100%;
+
+}
+.lefttext1:hover{
+    opacity: 1;
+}
+
+
+#itemsss .item:first-child{
+    background-image: url("https://i.pinimg.com/564x/18/c2/0b/18c20b135e1850ac3a08f33f4e4ac6f1.jpg");
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+#itemsss .item:nth-child(2){
+    background-image: url("https://i.pinimg.com/564x/2c/c2/0f/2cc20f0f1da4072dbb1af3d9799dede1.jpg");
+    grid-row: 1 / 2;
+    grid-column: 2/ 4;
+}
+
+#itemsss .item:nth-child(3){
+    background-image: url("https://i.pinimg.com/564x/b4/19/c9/b419c99d67c0fece29be9ddd246afe7b.jpg");
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#itemsss .item:nth-child(4){
+    background-image: url("https://i.pinimg.com/564x/80/80/3c/80803c96e07fa17858977439482f91bf.jpg");
+    grid-row: 1 / 3;
+    grid-column: 4/ 5;
+}
+
+#itemsss .item:nth-child(5){
+    background-image: url("https://i.pinimg.com/564x/38/6b/0f/386b0f243a8e33acf806964c30a496b9.jpg");
+    grid-row: 2 / 3;
+    grid-column: 3/ 4;
+}
+#concept-text{
+    padding: 2% 7%;
+    
+}
+#concept-text p{
+    font-size: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+#concept-text h3{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,142 @@
+
+
+.all-items{
+    padding: 4% 7%;
+  
+    display: flex;
+    flex-direction: column;
+}
+.product-filter> label{
+    font-size: 20px;
+}
+.product-filter{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.product-filter > #product_brand{
+    width: 280px;
+height: 45px;
+}
+.product-filter>button{
+width: 280px;
+height: 45px;
+font-size: 16px;
+}
+#product_brand{
+    font-size: 16px;
+}
+
+.all-items-main-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 4% 7%;
+}
+.all-items h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.all-items-blocks{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.all-items-blocks> img{
+    width: 300px;
+    height: 300px;
+}
+.all-items-blocks> .shop-now{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #FDC8F3;
+    text-decoration: none;
+    color: #111118;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.all-items-blocks> .shop-now:hover{
+    background-color: #ff9999;
+   color: #fff;
+}
+.all-items-blocks>h3,
+.all-items-blocks>p{
+    padding: 10px;
+    text-align: center;
+    color: #111118;
+}
+.all-items-blocks> .hidden, .all-items-blocks>.submit{
+
+    width: 100%;
+    height: 40px;
+    border: 2px solid #FDC8F3;
+    text-decoration: none;
+    color: #111118;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+ .all-items-blocks>.submit:hover{
+    background-color: #cc4ebf;
+    color: #fff;
+ 
+ }
+ .search-header{
+    font-size: 25px;
+ }
+.form-control{
+    width: 100%;
+    height: 40px;   
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0% 7%;
+
+}
+.pagination .pag-a >a {
+font-size: 16px;
+color: #111118;
+text-decoration: none;
+}
+
+
+.hidden-input {
+    display: block;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.pagination >.pag-a {
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #cc4ebf;
+width: 40px;
+height: 40px;
+background-color: #ff9999;
+}
+
+
+  
+.text-items{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+}

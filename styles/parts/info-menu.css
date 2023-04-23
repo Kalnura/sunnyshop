@@ -1,0 +1,35 @@
+.info-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F6F2EB;
+    height: 60%;
+    width: 450px;
+    padding: 20px 10px;
+    
+}
+.page-header> h3{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+align-items: flex-start;
+}
+.dropdown a {
+    padding-left: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 20px;
+    color: #111118;
+}
+#info-menu-img > img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 290px;
+    padding: 0;
+    }

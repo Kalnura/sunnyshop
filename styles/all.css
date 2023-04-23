@@ -1,0 +1,21 @@
+@import url(components/header.css);
+@import url(vendors/reset.css);
+@import url(components/login.css);
+@import url(components/profile.css);
+@import url(parts/info-menu.css);
+@import url(parts/profile-item.css);
+@import url(components/index.css);
+@import url(parts/all-items.css);
+@import url(parts/modal-window.css);
+@import url(parts/footer.css);
+@import url(parts/slider.css);
+@import url(components/shopping.css);
+@import url(parts/edit-profile.css);
+@import url(components/sale.css);
+@import url(components/contacts.css);
+@import url(components/best-products.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
